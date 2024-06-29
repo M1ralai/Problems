@@ -13,7 +13,7 @@ func main() {
 		big = n2
 		small = n1
 	}
-	for i := 2; i <= small; i++ {
+	for i := 1; i <= small; i++ {
 		var a, b int
 		a = small % i
 		b = big % i
